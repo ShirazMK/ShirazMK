@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" font-family="'Courier New', monospace">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b1222"/>
+      <stop offset="100%" stop-color="#111a2e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ROOM -->
+  <rect width="1200" height="420" fill="url(#wall)"/>
+  <rect y="352" width="1200" height="68" fill="#080d18"/>
+  <rect y="350" width="1200" height="3" fill="#1e293b"/>
+  <ellipse cx="600" cy="215" rx="300" ry="170" fill="url(#glow)"/>
+
+  <!-- ===== LEFT SIDE: CHAOS ===== -->
+  <!-- window -->
+  <rect x="70" y="60" width="170" height="120" fill="#0a1430" stroke="#1e293b" stroke-width="6"/>
+  <rect x="152" y="60" width="6" height="120" fill="#1e293b"/>
+  <rect x="70" y="117" width="170" height="6" fill="#1e293b"/>
+  <circle cx="205" cy="88" r="13" fill="#e2e8f0"/>
+  <circle cx="211" cy="84" r="11" fill="#0a1430"/>
+  <rect x="95" y="80" width="3" height="3" fill="#fff"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></rect>
+  <rect x="125" y="96" width="3" height="3" fill="#fff"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.1s" repeatCount="indefinite"/></rect>
+  <rect x="180" y="145" width="3" height="3" fill="#fff"><animate attributeName="opacity" values="1;0.3;1" dur="1.9s" repeatCount="indefinite"/></rect>
+  <rect x="100" y="150" width="3" height="3" fill="#fff"/>
+
+  <!-- flying papers -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 6 -14; 0 0" dur="3.2s" repeatCount="indefinite"/>
+    <g transform="translate(115 215) rotate(-18)">
+      <rect width="34" height="44" fill="#e2e8f0"/>
+      <rect x="6" y="8" width="22" height="3" fill="#94a3b8"/><rect x="6" y="16" width="18" height="3" fill="#94a3b8"/><rect x="6" y="24" width="20" height="3" fill="#94a3b8"/>
+    </g>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; -8 -10; 0 0" dur="2.6s" repeatCount="indefinite"/>
+    <g transform="translate(275 165) rotate(22)">
+      <rect width="34" height="44" fill="#cbd5e1"/>
+      <rect x="6" y="8" width="22" height="3" fill="#94a3b8"/><rect x="6" y="16" width="14" height="3" fill="#f472b6"/><rect x="6" y="24" width="20" height="3" fill="#94a3b8"/>
+    </g>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 5 -12; 0 0" dur="3.8s" repeatCount="indefinite"/>
+    <g transform="translate(205 250) rotate(-35)">
+      <rect width="30" height="38" fill="#e2e8f0"/>
+      <rect x="5" y="7" width="20" height="3" fill="#94a3b8"/><rect x="5" y="15" width="16" height="3" fill="#94a3b8"/>
+    </g>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; -4 -16; 0 0" dur="2.9s" repeatCount="indefinite"/>
+    <g transform="translate(40 270) rotate(12)">
+      <rect width="28" height="36" fill="#fde047"/>
+      <rect x="5" y="8" width="18" height="3" fill="#a16207"/>
+    </g>
+  </g>
+
+  <!-- tipped trash bin + paper balls -->
+  <g transform="translate(70 318) rotate(-70 25 18)">
+    <rect width="50" height="36" fill="#334155"/>
+    <rect y="-4" width="50" height="6" fill="#475569"/>
+  </g>
+  <circle cx="135" cy="343" r="8" fill="#cbd5e1"/>
+  <circle cx="160" cy="346" r="6" fill="#e2e8f0"/>
+  <circle cx="190" cy="342" r="9" fill="#cbd5e1"/>
+  <circle cx="225" cy="347" r="5" fill="#e2e8f0"/>
+  <!-- tangled cable -->
+  <path d="M385 350 C 340 380, 300 330, 280 365 S 230 390, 250 360 S 300 340, 260 395" fill="none" stroke="#475569" stroke-width="4"/>
+
+  <!-- ===== WALL: STICKY NOTE GRID (one is crooked!) ===== -->
+  <g>
+    <rect x="482" y="40" width="40" height="40" fill="#2dd4bf"/>
+    <rect x="534" y="40" width="40" height="40" fill="#fde047"/>
+    <rect x="586" y="40" width="40" height="40" fill="#f472b6"/>
+    <rect x="638" y="40" width="40" height="40" fill="#38bdf8"/>
+    <rect x="690" y="40" width="40" height="40" fill="#2dd4bf"/>
+    <rect x="482" y="92" width="40" height="40" fill="#38bdf8"/>
+    <rect x="534" y="92" width="40" height="40" fill="#2dd4bf"/>
+    <rect x="586" y="92" width="40" height="40" fill="#fde047"/>
+    <g transform="rotate(16 658 112)">
+      <animateTransform attributeName="transform" type="rotate" values="16 658 112; 16 658 112; 0 658 112; 0 658 112; 16 658 112" keyTimes="0;0.35;0.45;0.9;1" dur="6s" repeatCount="indefinite"/>
+      <rect x="638" y="92" width="40" height="40" fill="#f472b6"/>
+    </g>
+    <rect x="690" y="92" width="40" height="40" fill="#fde047"/>
+  </g>
+
+  <!-- ===== RIGHT SIDE: PERFECT ORDER ===== -->
+  <!-- clock -->
+  <rect x="840" y="40" width="130" height="50" rx="4" fill="#0f172a" stroke="#1f2937" stroke-width="3"/>
+  <text x="858" y="75" font-size="28" font-weight="bold" fill="#f87171">03</text>
+  <text x="893" y="74" font-size="28" font-weight="bold" fill="#f87171">:<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></text>
+  <text x="908" y="75" font-size="28" font-weight="bold" fill="#f87171">47</text>
+  <text x="945" y="75" font-size="12" fill="#f87171">AM</text>
+
+  <!-- shelves -->
+  <rect x="850" y="170" width="290" height="8" fill="#334155"/>
+  <rect x="850" y="260" width="290" height="8" fill="#334155"/>
+  <!-- books sorted by colour -->
+  <rect x="862" y="114" width="18" height="56" fill="#99f6e4"/>
+  <rect x="882" y="114" width="18" height="56" fill="#5eead4"/>
+  <rect x="902" y="114" width="18" height="56" fill="#2dd4bf"/>
+  <rect x="922" y="114" width="18" height="56" fill="#14b8a6"/>
+  <rect x="942" y="114" width="18" height="56" fill="#0d9488"/>
+  <rect x="962" y="114" width="18" height="56" fill="#0ea5e9"/>
+  <rect x="982" y="114" width="18" height="56" fill="#38bdf8"/>
+  <rect x="1002" y="114" width="18" height="56" fill="#7dd3fc"/>
+  <rect x="1022" y="114" width="18" height="56" fill="#818cf8"/>
+  <rect x="1042" y="114" width="18" height="56" fill="#a78bfa"/>
+  <rect x="1062" y="114" width="18" height="56" fill="#c084fc"/>
+  <rect x="1082" y="114" width="18" height="56" fill="#f472b6"/>
+  <!-- books sorted by height + plant -->
+  <rect x="868" y="236" width="30" height="24" fill="#a16207"/>
+  <rect x="872" y="216" width="6" height="20" fill="#22c55e"/>
+  <rect x="880" y="208" width="6" height="28" fill="#16a34a"/>
+  <rect x="888" y="220" width="6" height="16" fill="#22c55e"/>
+  <rect x="920" y="230" width="16" height="30" fill="#334155"/>
+  <rect x="938" y="222" width="16" height="38" fill="#475569"/>
+  <rect x="956" y="214" width="16" height="46" fill="#334155"/>
+  <rect x="974" y="206" width="16" height="54" fill="#475569"/>
+  <rect x="992" y="198" width="16" height="62" fill="#334155"/>
+  <text x="1030" y="250" font-size="14" fill="#2dd4bf">sorted ✓</text>
+
+  <!-- ===== DESK ===== -->
+  <rect x="360" y="300" width="480" height="16" fill="#334155"/>
+  <rect x="378" y="316" width="14" height="36" fill="#1e293b"/>
+  <rect x="808" y="316" width="14" height="36" fill="#1e293b"/>
+
+  <!-- coffee mugs -->
+  <rect x="385" y="278" width="20" height="22" fill="#f472b6"/><rect x="405" y="283" width="6" height="10" fill="none" stroke="#f472b6" stroke-width="3"/>
+  <rect x="417" y="278" width="20" height="22" fill="#38bdf8"/><rect x="437" y="283" width="6" height="10" fill="none" stroke="#38bdf8" stroke-width="3"/>
+  <rect x="401" y="256" width="20" height="22" fill="#2dd4bf"/><rect x="421" y="261" width="6" height="10" fill="none" stroke="#2dd4bf" stroke-width="3"/>
+  <path d="M407 250 q -5 -8 0 -16 q 5 -8 0 -16" fill="none" stroke="#94a3b8" stroke-width="2">
+    <animate attributeName="opacity" values="0;0.8;0" dur="2.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 4; 0 -6" dur="2.5s" repeatCount="indefinite"/>
+  </path>
+  <path d="M416 250 q 5 -8 0 -16 q -5 -8 0 -16" fill="none" stroke="#94a3b8" stroke-width="2">
+    <animate attributeName="opacity" values="0;0.8;0" dur="2.5s" begin="1.2s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 4; 0 -6" dur="2.5s" begin="1.2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- monitor -->
+  <rect x="590" y="284" width="20" height="14" fill="#1f2937"/>
+  <rect x="560" y="296" width="80" height="5" fill="#1f2937"/>
+  <rect x="460" y="150" width="280" height="136" rx="6" fill="#1f2937"/>
+  <rect x="470" y="160" width="260" height="116" fill="#060b16"/>
+  <!-- code -->
+  <rect x="480" y="170" width="40" height="5" fill="#f472b6"/><rect x="524" y="170" width="50" height="5" fill="#38bdf8"/>
+  <rect x="492" y="182" width="30" height="5" fill="#2dd4bf"/><rect x="526" y="182" width="44" height="5" fill="#fde047"/>
+  <rect x="492" y="194" width="56" height="5" fill="#2dd4bf"/><rect x="552" y="194" width="20" height="5" fill="#94a3b8"/>
+  <rect x="504" y="206" width="48" height="5" fill="#38bdf8"/>
+  <rect x="504" y="218" width="36" height="5" fill="#94a3b8"/><rect x="544" y="218" width="26" height="5" fill="#f472b6"/>
+  <rect x="492" y="230" width="22" height="5" fill="#2dd4bf"/>
+  <rect x="480" y="242" width="14" height="5" fill="#f472b6"/>
+  <rect x="480" y="254" width="6" height="10" fill="#2dd4bf"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></rect>
+  <!-- UI grid snapping into alignment -->
+  <line x1="606" y1="166" x2="606" y2="270" stroke="#f472b6" stroke-width="1" stroke-dasharray="3 3" opacity="0.7"/>
+  <rect x="606" y="170" width="52" height="40" fill="none" stroke="#2dd4bf" stroke-width="2"/>
+  <rect x="666" y="170" width="52" height="40" fill="none" stroke="#2dd4bf" stroke-width="2"/>
+  <rect x="606" y="220" width="52" height="40" fill="none" stroke="#2dd4bf" stroke-width="2"/>
+  <rect x="666" y="220" width="52" height="40" transform="translate(7 5)" fill="#2dd4bf" fill-opacity="0.15" stroke="#38bdf8" stroke-width="2">
+    <animateTransform attributeName="transform" type="translate" values="7 5; 7 5; 0 0; 0 0; 7 5" keyTimes="0;0.35;0.45;0.9;1" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- laptop with sorted bar chart -->
+  <rect x="752" y="238" width="74" height="52" rx="3" fill="#1f2937"/>
+  <rect x="757" y="243" width="64" height="42" fill="#060b16"/>
+  <rect x="763" y="273" width="7" height="8" fill="#0d9488"/>
+  <rect x="773" y="267" width="7" height="14" fill="#14b8a6"/>
+  <rect x="783" y="261" width="7" height="20" fill="#2dd4bf"/>
+  <rect x="793" y="255" width="7" height="26" fill="#5eead4"/>
+  <rect x="803" y="249" width="7" height="32" fill="#99f6e4"/>
+  <rect x="745" y="290" width="88" height="8" rx="2" fill="#334155"/>
+
+  <!-- ===== CHARACTER (from behind) ===== -->
+  <!-- raised arm fixing the crooked note -->
+  <line x1="626" y1="276" x2="652" y2="150" stroke="#0f766e" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="653" cy="144" r="8" fill="#d6a77a"/>
+  <!-- shoulders / hoodie -->
+  <rect x="562" y="266" width="76" height="50" rx="20" fill="#0f766e"/>
+  <rect x="582" y="266" width="36" height="10" rx="5" fill="#115e59"/>
+  <!-- head + messy hair -->
+  <circle cx="600" cy="246" r="24" fill="#1c1917"/>
+  <polygon points="584,228 588,212 596,226" fill="#1c1917"/>
+  <polygon points="598,224 606,208 610,226" fill="#1c1917"/>
+  <polygon points="610,230 622,218 620,236" fill="#1c1917"/>
+  <rect x="574" y="244" width="5" height="10" fill="#d6a77a"/>
+  <rect x="621" y="244" width="5" height="10" fill="#d6a77a"/>
+  <!-- sweat drops -->
+  <path d="M570 222 q -4 7 0 10 q 4 -3 0 -10z" fill="#7dd3fc">
+    <animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; -3 8" dur="1.8s" repeatCount="indefinite"/>
+  </path>
+  <path d="M564 236 q -3 5 0 8 q 3 -3 0 -8z" fill="#7dd3fc">
+    <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="0.9s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; -3 8" dur="1.8s" begin="0.9s" repeatCount="indefinite"/>
+  </path>
+  <!-- chair -->
+  <rect x="558" y="300" width="84" height="58" rx="8" fill="#1e293b" stroke="#334155" stroke-width="3"/>
+  <rect x="595" y="358" width="10" height="22" fill="#1e293b"/>
+  <rect x="565" y="380" width="70" height="6" rx="3" fill="#1e293b"/>
+
+  <!-- speech bubble with rotating lines -->
+  <rect x="268" y="206" width="186" height="38" rx="8" fill="#0f172a" stroke="#2dd4bf" stroke-width="2"/>
+  <circle cx="470" cy="236" r="5" fill="#0f172a" stroke="#2dd4bf" stroke-width="2"/>
+  <circle cx="486" cy="244" r="3.5" fill="#0f172a" stroke="#2dd4bf" stroke-width="2"/>
+  <text x="361" y="230" font-size="14" fill="#e2e8f0" text-anchor="middle" opacity="1">1px to the left...
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.32;0.33;1" dur="6s" repeatCount="indefinite"/>
+  </text>
+  <text x="361" y="230" font-size="14" fill="#e2e8f0" text-anchor="middle" opacity="0">almost there...
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.34;0.6;0.61;1" dur="6s" repeatCount="indefinite"/>
+  </text>
+  <text x="361" y="230" font-size="14" fill="#2dd4bf" text-anchor="middle" opacity="0">perfect. ✨
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.61;0.62;0.9;0.91" dur="6s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- caption -->
+  <text x="600" y="404" font-size="15" fill="#2dd4bf" fill-opacity="0.85" text-anchor="middle">// perfection is a direction, not a finish line</text>
+</svg>

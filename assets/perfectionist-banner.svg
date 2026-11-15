@@ -81,7 +81,7 @@
     <rect x="534" y="92" width="40" height="40" fill="#2dd4bf"/>
     <rect x="586" y="92" width="40" height="40" fill="#fde047"/>
     <g transform="rotate(16 658 112)">
-      <animateTransform attributeName="transform" type="rotate" values="16 658 112; 16 658 112; 0 658 112; 0 658 112; 16 658 112" keyTimes="0;0.35;0.45;0.9;1" dur="6s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" values="16 658 112; 16 658 112; 0 658 112; 0 658 112; 16 658 112" keyTimes="0;0.08;0.12;0.92;1" dur="12s" repeatCount="indefinite"/>
       <rect x="638" y="92" width="40" height="40" fill="#f472b6"/>
     </g>
     <rect x="690" y="92" width="40" height="40" fill="#fde047"/>
@@ -131,7 +131,10 @@
   <!-- coffee mugs -->
   <rect x="385" y="278" width="20" height="22" fill="#f472b6"/><rect x="405" y="283" width="6" height="10" fill="none" stroke="#f472b6" stroke-width="3"/>
   <rect x="417" y="278" width="20" height="22" fill="#38bdf8"/><rect x="437" y="283" width="6" height="10" fill="none" stroke="#38bdf8" stroke-width="3"/>
-  <rect x="401" y="256" width="20" height="22" fill="#2dd4bf"/><rect x="421" y="261" width="6" height="10" fill="none" stroke="#2dd4bf" stroke-width="3"/>
+  <g transform="rotate(-24 411 278)">
+    <animateTransform attributeName="transform" type="rotate" values="-24 411 278; -24 411 278; 0 411 278; 0 411 278; -24 411 278" keyTimes="0;0.17;0.21;0.92;1" dur="12s" repeatCount="indefinite"/>
+    <rect x="401" y="256" width="20" height="22" fill="#2dd4bf"/><rect x="421" y="261" width="6" height="10" fill="none" stroke="#2dd4bf" stroke-width="3"/>
+  </g>
   <path d="M407 250 q -5 -8 0 -16 q 5 -8 0 -16" fill="none" stroke="#94a3b8" stroke-width="2">
     <animate attributeName="opacity" values="0;0.8;0" dur="2.5s" repeatCount="indefinite"/>
     <animateTransform attributeName="transform" type="translate" values="0 4; 0 -6" dur="2.5s" repeatCount="indefinite"/>
@@ -151,7 +154,10 @@
   <rect x="492" y="182" width="30" height="5" fill="#2dd4bf"/><rect x="526" y="182" width="44" height="5" fill="#fde047"/>
   <rect x="492" y="194" width="56" height="5" fill="#2dd4bf"/><rect x="552" y="194" width="20" height="5" fill="#94a3b8"/>
   <rect x="504" y="206" width="48" height="5" fill="#38bdf8"/>
-  <rect x="504" y="218" width="36" height="5" fill="#94a3b8"/><rect x="544" y="218" width="26" height="5" fill="#f472b6"/>
+  <g transform="translate(10 0)">
+    <animateTransform attributeName="transform" type="translate" values="10 0; 10 0; 0 0; 0 0; 10 0" keyTimes="0;0.66;0.7;0.92;1" dur="12s" repeatCount="indefinite"/>
+    <rect x="504" y="218" width="36" height="5" fill="#94a3b8"/><rect x="544" y="218" width="26" height="5" fill="#f472b6"/>
+  </g>
   <rect x="492" y="230" width="22" height="5" fill="#2dd4bf"/>
   <rect x="480" y="242" width="14" height="5" fill="#f472b6"/>
   <rect x="480" y="254" width="6" height="10" fill="#2dd4bf"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></rect>
@@ -161,23 +167,41 @@
   <rect x="666" y="170" width="52" height="40" fill="none" stroke="#2dd4bf" stroke-width="2"/>
   <rect x="606" y="220" width="52" height="40" fill="none" stroke="#2dd4bf" stroke-width="2"/>
   <rect x="666" y="220" width="52" height="40" transform="translate(7 5)" fill="#2dd4bf" fill-opacity="0.15" stroke="#38bdf8" stroke-width="2">
-    <animateTransform attributeName="transform" type="translate" values="7 5; 7 5; 0 0; 0 0; 7 5" keyTimes="0;0.35;0.45;0.9;1" dur="6s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="7 5; 7 5; 0 0; 0 0; 7 5" keyTimes="0;0.33;0.37;0.92;1" dur="12s" repeatCount="indefinite"/>
   </rect>
 
   <!-- laptop with sorted bar chart -->
   <rect x="752" y="238" width="74" height="52" rx="3" fill="#1f2937"/>
   <rect x="757" y="243" width="64" height="42" fill="#060b16"/>
   <rect x="763" y="273" width="7" height="8" fill="#0d9488"/>
-  <rect x="773" y="267" width="7" height="14" fill="#14b8a6"/>
+  <rect x="773" y="255" width="7" height="26" fill="#14b8a6">
+    <animate attributeName="height" values="26;26;14;14;26" keyTimes="0;0.56;0.6;0.92;1" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="255;255;267;267;255" keyTimes="0;0.56;0.6;0.92;1" dur="12s" repeatCount="indefinite"/>
+  </rect>
   <rect x="783" y="261" width="7" height="20" fill="#2dd4bf"/>
-  <rect x="793" y="255" width="7" height="26" fill="#5eead4"/>
+  <rect x="793" y="267" width="7" height="14" fill="#5eead4">
+    <animate attributeName="height" values="14;14;26;26;14" keyTimes="0;0.56;0.6;0.92;1" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="267;267;255;255;267" keyTimes="0;0.56;0.6;0.92;1" dur="12s" repeatCount="indefinite"/>
+  </rect>
   <rect x="803" y="249" width="7" height="32" fill="#99f6e4"/>
   <rect x="745" y="290" width="88" height="8" rx="2" fill="#334155"/>
 
   <!-- ===== CHARACTER (from behind) ===== -->
   <!-- raised arm fixing the crooked note -->
-  <line x1="626" y1="276" x2="652" y2="150" stroke="#0f766e" stroke-width="13" stroke-linecap="round"/>
-  <circle cx="653" cy="144" r="8" fill="#d6a77a"/>
+  <!-- right arm: sticky note -> screen box -> laptop chart -->
+  <line x1="626" y1="276" x2="653" y2="144" stroke="#0f766e" stroke-width="13" stroke-linecap="round">
+    <animate attributeName="x2" values="653;653;692;692;790;790;642;642;653" keyTimes="0;0.2;0.26;0.46;0.52;0.76;0.82;0.95;1" dur="12s" repeatCount="indefinite"/><animate attributeName="y2" values="144;144;238;238;262;262;322;322;144" keyTimes="0;0.2;0.26;0.46;0.52;0.76;0.82;0.95;1" dur="12s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="653" cy="144" r="8" fill="#d6a77a">
+    <animate attributeName="cx" values="653;653;692;692;790;790;642;642;653" keyTimes="0;0.2;0.26;0.46;0.52;0.76;0.82;0.95;1" dur="12s" repeatCount="indefinite"/><animate attributeName="cy" values="144;144;238;238;262;262;322;322;144" keyTimes="0;0.2;0.26;0.46;0.52;0.76;0.82;0.95;1" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  <!-- left arm: coffee mug -> code indentation -->
+  <line x1="576" y1="278" x2="560" y2="322" stroke="#0f766e" stroke-width="13" stroke-linecap="round">
+    <animate attributeName="x2" values="560;560;426;426;560;560;512;512;560;560" keyTimes="0;0.08;0.14;0.24;0.3;0.58;0.63;0.75;0.8;1" dur="12s" repeatCount="indefinite"/><animate attributeName="y2" values="322;322;262;262;322;322;226;226;322;322" keyTimes="0;0.08;0.14;0.24;0.3;0.58;0.63;0.75;0.8;1" dur="12s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="560" cy="322" r="8" fill="#d6a77a">
+    <animate attributeName="cx" values="560;560;426;426;560;560;512;512;560;560" keyTimes="0;0.08;0.14;0.24;0.3;0.58;0.63;0.75;0.8;1" dur="12s" repeatCount="indefinite"/><animate attributeName="cy" values="322;322;262;262;322;322;226;226;322;322" keyTimes="0;0.08;0.14;0.24;0.3;0.58;0.63;0.75;0.8;1" dur="12s" repeatCount="indefinite"/>
+  </circle>
   <!-- shoulders / hoodie -->
   <rect x="562" y="266" width="76" height="50" rx="20" fill="#0f766e"/>
   <rect x="582" y="266" width="36" height="10" rx="5" fill="#115e59"/>
@@ -207,15 +231,21 @@
   <circle cx="470" cy="236" r="5" fill="#0f172a" stroke="#2dd4bf" stroke-width="2"/>
   <circle cx="486" cy="244" r="3.5" fill="#0f172a" stroke="#2dd4bf" stroke-width="2"/>
   <text x="361" y="230" font-size="14" fill="#e2e8f0" text-anchor="middle" opacity="1">1px to the left...
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.32;0.33;1" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.25" dur="12s" repeatCount="indefinite"/>
   </text>
-  <text x="361" y="230" font-size="14" fill="#e2e8f0" text-anchor="middle" opacity="0">almost there...
-    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.34;0.6;0.61;1" dur="6s" repeatCount="indefinite"/>
+  <text x="361" y="230" font-size="14" fill="#e2e8f0" text-anchor="middle" opacity="0">now align the grid...
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.25;0.5" dur="12s" repeatCount="indefinite"/>
+  </text>
+  <text x="361" y="230" font-size="14" fill="#e2e8f0" text-anchor="middle" opacity="0">sort. the. chart.
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.5;0.75" dur="12s" repeatCount="indefinite"/>
   </text>
   <text x="361" y="230" font-size="14" fill="#2dd4bf" text-anchor="middle" opacity="0">perfect. ✨
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.61;0.62;0.9;0.91" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.75;0.92" dur="12s" repeatCount="indefinite"/>
+  </text>
+  <text x="361" y="230" font-size="14" fill="#f87171" text-anchor="middle" opacity="0">wait— NO 😱
+    <animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.92" dur="12s" repeatCount="indefinite"/>
   </text>
 
   <!-- caption -->
-  <text x="600" y="404" font-size="15" fill="#2dd4bf" fill-opacity="0.85" text-anchor="middle">// perfection is a direction, not a finish line</text>
+  <text x="600" y="404" font-size="15" fill="#2dd4bf" fill-opacity="0.85" text-anchor="middle">$ git commit -m "final_final_v7_REALLY_final.ts"</text>
 </svg>
